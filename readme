@@ -1,0 +1,18 @@
+http://localhost:8081/beers
+
+prerequisite:
+install NPM (https://www.npmjs.com/get-npm)
+
+Start backend:
+run DemoApplication.java
+
+Start frontend:
+open new terminal
+run following commnads to get started:
+cd .\frontend\
+cd .\app\
+npm install(will take some time as it installs all the dependencies required by the application)
+npm start
+
+Please post questions to "aayush.sukhadia@sjsu.edu"
+
