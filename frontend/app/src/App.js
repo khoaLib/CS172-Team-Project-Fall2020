@@ -1,18 +1,17 @@
-import React from 'react';
-import './App.css';
-import Main from './Components/Main';
-import {BrowserRouter} from 'react-router-dom';
-
+import React from "react";
+import "./App.css";
+import {BrowserRouter} from "react-router-dom";
+import Main1 from "./Components/main1";
 
 function App() {
-  return (
-    <BrowserRouter>
-        <div>
-          {/* App Component Has a Child Component called Main*/}
-          <Main/>
-        </div>
-      </BrowserRouter>
-  );
+	return (
+		<BrowserRouter>
+			<div>
+				{/* App Component Has a Child Component called Main*/}
+				<Main1 />
+			</div>
+		</BrowserRouter>
+	);
 }
 
 export default App;
