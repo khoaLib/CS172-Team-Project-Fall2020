@@ -9,7 +9,6 @@ function App() {
 			<div>
 				{/* App Component Has a Child Component called Main*/}
 				<Main1 />
-				<Main1 />
 			</div>
 		</BrowserRouter>
 	);
