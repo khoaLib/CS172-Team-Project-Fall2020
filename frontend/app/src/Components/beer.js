@@ -30,14 +30,18 @@ function Beer() {
 		<div style={{textAlign: "center"}}>
 			<div className="container">
 				<br></br>
-				<h2>List of Beers</h2>
+				<h2>Departure Flights</h2>
 				<br></br>
 				<div>
 					<Table class="table table-dark">
 						<thead class="thead-dark">
 							<tr>
-								<th scope="col">Name</th>
-								<th scope="col">ABV</th>
+								<th scope="col">Date</th>
+								<th scope="col">Airline</th>
+								<th scope="col">Flight</th>
+								<th scope="col">Time</th>
+								<th scope="col">Destination</th>
+								<th scope="col">Status</th>
 							</tr>
 						</thead>
 						<tbody>
